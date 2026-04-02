@@ -1,0 +1,202 @@
+{
+  "@@locale": "ne",
+  "appName": "बुकबजार",
+  "appTagline": "सरल इन्भेन्टरी र क्रेडिट व्यवस्थापन",
+  "yourName": "तपाईंको नाम",
+  "shopName": "पसलको नाम",
+  "phoneOptional": "फोन नम्बर (वैकल्पिक)",
+  "continueToDashboard": "ड्यासबोर्डमा जानुहोस्",
+  "worksOffline": "पूर्णतः अफलाइन काम गर्छ - इन्टरनेट चाहिँदैन",
+  "welcomeBack": "स्वागत छ,",
+  "totalProducts": "कुल उत्पादन",
+  "lowInStock": "{count} कम स्टकमा",
+  "@lowInStock": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "todaysSales": "आजको बिक्री",
+  "transactions": "{count} कारोबार",
+  "@transactions": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cashReceived": "नगद प्राप्त",
+  "creditGiven": "उधारो दिएको",
+  "customers": "{count} ग्राहक",
+  "@customers": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "quickActions": "द्रुत कार्यहरू",
+  "addSale": "बिक्री थप्नुहोस्",
+  "recordNewTransaction": "नयाँ कारोबार दर्ता गर्नुहोस्",
+  "manageInventory": "इन्भेन्टरी व्यवस्थापन",
+  "viewAndUpdateStock": "स्टक हेर्नुहोस् र अपडेट गर्नुहोस्",
+  "customersAndCredit": "ग्राहक र क्रेडिट",
+  "trackPendingPayments": "बाँकी भुक्तानी ट्र्याक गर्नुहोस्",
+  "dailySummary": "दैनिक सारांश",
+  "viewReportsInsights": "रिपोर्ट र जानकारी हेर्नुहोस्",
+  "inventory": "इन्भेन्टरी",
+  "searchProducts": "उत्पादन खोज्नुहोस्...",
+  "all": "सबै",
+  "lowStock": "कम स्टक",
+  "outOfStock": "स्टक सकियो",
+  "addProduct": "उत्पादन थप्नुहोस्",
+  "editProduct": "उत्पादन सम्पादन",
+  "productName": "उत्पादनको नाम",
+  "category": "श्रेणी",
+  "costPrice": "लागत मूल्य",
+  "sellingPrice": "बिक्री मूल्य",
+  "quantity": "परिमाण",
+  "lowStockThreshold": "कम स्टक सीमा",
+  "saveProduct": "उत्पादन सुरक्षित गर्नुहोस्",
+  "deleteProduct": "उत्पादन मेटाउनुहोस्",
+  "confirmDelete": "मेटाउने पुष्टि गर्नुहोस्",
+  "deleteProductConfirm": "के तपाईं यो उत्पादन मेटाउन चाहनुहुन्छ?",
+  "cancel": "रद्द गर्नुहोस्",
+  "delete": "मेटाउनुहोस्",
+  "productSaved": "उत्पादन सफलतापूर्वक सुरक्षित भयो",
+  "productDeleted": "उत्पादन मेटाइयो",
+  "insufficientStock": "पर्याप्त स्टक छैन!",
+  "selectProduct": "उत्पादन छान्नुहोस्",
+  "enterQuantity": "परिमाण राख्नुहोस्",
+  "paymentMethod": "भुक्तानी विधि",
+  "cash": "नगद",
+  "credit": "उधारो",
+  "totalAmount": "कुल रकम",
+  "confirmSale": "बिक्री पुष्टि गर्नुहोस्",
+  "step1": "चरण १",
+  "step2": "चरण २",
+  "step3": "चरण ३",
+  "perUnit": "प्रति इकाई {price}",
+  "@perUnit": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "unitsInStock": "स्टकमा {count} इकाई",
+  "@unitsInStock": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "saleRecorded": "बिक्री सफलतापूर्वक दर्ता भयो!",
+  "selectProductFirst": "पहिले उत्पादन छान्नुहोस्",
+  "selectCreditCustomer": "उधारोको लागि ग्राहक छान्नुहोस्",
+  "searchCustomers": "ग्राहक खोज्नुहोस्...",
+  "addNewCustomer": "नयाँ ग्राहक थप्नुहोस्",
+  "addCustomerDetails": "क्रेडिट र भुक्तानी इतिहास ट्र्याक गर्न ग्राहक विवरण थप्नुहोस्",
+  "customerName": "ग्राहकको नाम",
+  "enterCustomerName": "ग्राहकको नाम राख्नुहोस्",
+  "phoneNumber": "फोन नम्बर",
+  "enterPhoneNumber": "१०-अंकको नम्बर राख्नुहोस्",
+  "usedForIdentification": "पहिचान र सम्पर्कको लागि",
+  "addressOptional": "ठेगाना (वैकल्पिक)",
+  "enterAddress": "ठेगाना वा स्थान राख्नुहोस्",
+  "chooseAvatar": "अवतार छान्नुहोस्",
+  "saveCustomer": "ग्राहक सुरक्षित गर्नुहोस्",
+  "customerSaved": "ग्राहक सुरक्षित भयो!",
+  "pending": "बाँकी",
+  "collected": "सङ्कलित",
+  "cleared": "चुक्ता",
+  "collectPayment": "भुक्तानी सङ्कलन",
+  "viewHistory": "इतिहास हेर्नुहोस्",
+  "viewFullHistory": "पूर्ण इतिहास हेर्नुहोस्",
+  "customerDetails": "ग्राहक विवरण",
+  "customerSince": "{date} देखि ग्राहक",
+  "@customerSince": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "outstandingBalance": "बाँकी मौज्दात",
+  "totalCredit": "कुल उधारो",
+  "paidSoFar": "अहिलेसम्म तिरेको",
+  "daysPending": "दिन बाँकी",
+  "days": "{count} दिन",
+  "@days": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterAmount": "रकम राख्नुहोस्",
+  "confirmPayment": "भुक्तानी पुष्टि गर्नुहोस्",
+  "transactionHistory": "कारोबार इतिहास",
+  "creditGivenLabel": "उधारो दिएको",
+  "paymentReceived": "भुक्तानी प्राप्त",
+  "paymentCollected": "भुक्तानी सङ्कलन भयो!",
+  "invalidAmount": "अमान्य रकम",
+  "noProductsFound": "कुनै उत्पादन फेला परेन।\nपहिलो उत्पादन थप्न + थिच्नुहोस्।",
+  "noCustomersFound": "अहिलेसम्म कुनै ग्राहक छैन।\nग्राहक थप्न + थिच्नुहोस्।",
+  "noSalesFound": "आज कुनै बिक्री दर्ता भएको छैन।",
+  "totalSales": "कुल बिक्री",
+  "cashPayments": "नगद भुक्तानी",
+  "creditPayments": "उधारो भुक्तानी",
+  "salesBreakdown": "बिक्री विवरण",
+  "recentTransactions": "हालका कारोबारहरू",
+  "paymentMethods": "भुक्तानी विधिहरू",
+  "settings": "सेटिङ",
+  "language": "भाषा",
+  "english": "English",
+  "nepali": "नेपाली",
+  "about": "बारेमा",
+  "version": "संस्करण",
+  "resetData": "सबै डाटा रिसेट गर्नुहोस्",
+  "resetConfirm": "यसले सबै डाटा स्थायी रूपमा मेटाउनेछ। के तपाईं निश्चित हुनुहुन्छ?",
+  "reset": "रिसेट",
+  "dataReset": "सबै डाटा रिसेट भयो",
+  "nameRequired": "नाम आवश्यक छ",
+  "priceRequired": "मूल्य ० भन्दा बढी हुनुपर्छ",
+  "quantityRequired": "परिमाण ० वा बढी हुनुपर्छ",
+  "phoneRequired": "फोन नम्बर आवश्यक छ",
+  "today": "आज",
+  "daysAgo": "{count} दिन अघि",
+  "@daysAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "weekAgo": "१ हप्ता अघि",
+  "justNow": "अहिले",
+  "noOutstanding": "कुनै बाँकी क्रेडिट छैन",
+  "fromCustomers": "{count} ग्राहकबाट",
+  "@fromCustomers": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "thisMonth": "यो महिना",
+  "registered": "कुल दर्ता",
+  "qty": "मात्रा",
+  "price": "मूल्य",
+  "edit": "सम्पादन",
+  "back": "पछाडि",
+  "menu": "मेनु",
+  "share": "साझा गर्नुहोस्",
+  "call": "कल",
+  "getStarted": "सुरु गर्नुहोस्",
+  "lowStockAlert": "कम स्टक अलर्ट",
+  "saveChanges": "परिवर्तन सेभ गर्नुहोस्",
+  "phone": "फोन"
+}
