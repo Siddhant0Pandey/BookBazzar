@@ -45,52 +45,6 @@ flutter build appbundle --release
 flutter build ios --release
 ```
 
----
-
-## 🔑 Signing the APK (required for release)
-
-### 1. Generate a keystore (one time only):
-```bash
-keytool -genkey -v -keystore ~/bookbaazar-release.jks \
-  -keyalg RSA -keysize 2048 -validity 10000 \
-  -alias bookbaazar
-```
-
-### 2. Create `android/key.properties`:
-```
-storePassword=YOUR_PASSWORD
-keyPassword=YOUR_PASSWORD
-keyAlias=bookbaazar
-storeFile=/path/to/bookbaazar-release.jks
-```
-
-### 3. Update `android/app/build.gradle` — add before `android {}`:
-```gradle
-def keystoreProperties = new Properties()
-def keystorePropertiesFile = rootProject.file('key.properties')
-if (keystorePropertiesFile.exists()) {
-    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
-}
-```
-
-Then add signingConfigs inside `android {}`:
-```gradle
-signingConfigs {
-    release {
-        keyAlias keystoreProperties['keyAlias']
-        keyPassword keystoreProperties['keyPassword']
-        storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
-        storePassword keystoreProperties['storePassword']
-    }
-}
-buildTypes {
-    release {
-        signingConfig signingConfigs.release
-        minifyEnabled true
-        shrinkResources true
-    }
-}
-```
 
 ---
 
