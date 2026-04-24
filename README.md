@@ -5,10 +5,10 @@
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ```bash
-# 1. Extract the ZIP and navigate into the folder
+
 cd bookbaazar
 
 # 2. Install dependencies
@@ -17,84 +17,14 @@ flutter pub get
 # 3. Generate localisation files (REQUIRED before running)
 flutter gen-l10n
 
-# 4. Generate app icons (REQUIRED once)
+# 4. Generate app icons
 dart run flutter_launcher_icons
 
 # 5. Run the app
 flutter run
 ```
 
----
-
-## 🏗️ Build for Production
-
-### Android APK (for direct install)
-```bash
-flutter build apk --release
-# Output: build/app/outputs/flutter-apk/app-release.apk
-```
-
-### Android App Bundle (for Play Store)
-```bash
-flutter build appbundle --release
-# Output: build/app/outputs/bundle/release/app-release.aab
-```
-
-### iOS (requires macOS + Xcode)
-```bash
-flutter build ios --release
-```
-
----
-
-## 🔑 Signing the APK (required for release)
-
-### 1. Generate a keystore (one time only):
-```bash
-keytool -genkey -v -keystore ~/bookbaazar-release.jks \
-  -keyalg RSA -keysize 2048 -validity 10000 \
-  -alias bookbaazar
-```
-
-### 2. Create `android/key.properties`:
-```
-storePassword=YOUR_PASSWORD
-keyPassword=YOUR_PASSWORD
-keyAlias=bookbaazar
-storeFile=/path/to/bookbaazar-release.jks
-```
-
-### 3. Update `android/app/build.gradle` — add before `android {}`:
-```gradle
-def keystoreProperties = new Properties()
-def keystorePropertiesFile = rootProject.file('key.properties')
-if (keystorePropertiesFile.exists()) {
-    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
-}
-```
-
-Then add signingConfigs inside `android {}`:
-```gradle
-signingConfigs {
-    release {
-        keyAlias keystoreProperties['keyAlias']
-        keyPassword keystoreProperties['keyPassword']
-        storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
-        storePassword keystoreProperties['storePassword']
-    }
-}
-buildTypes {
-    release {
-        signingConfig signingConfigs.release
-        minifyEnabled true
-        shrinkResources true
-    }
-}
-```
-
----
-
-## 📁 Project Structure
+## Project Structure
 
 ```
 lib/
@@ -124,21 +54,21 @@ assets/
 
 ---
 
-## ✨ Features
+##  Features
 
 | Feature | Details |
 |---|---|
-| 📦 Inventory | Add/edit/delete products with emoji icons and low-stock alerts |
-| 🛒 Sales | 3-step sale flow: product → quantity → cash or credit |
-| 👥 Customers | Track credit per customer, collect payments, view history |
-| 📊 Daily Reports | Revenue, cash, credit breakdown with date navigation |
-| 🌐 Bilingual | English + Nepali (नेपाली) |
-| 📵 100% Offline | SQLite — no internet, no server, no account needed |
-| 🔒 Secure | All data stays on device |
+|  Inventory | Add/edit/delete products with emoji icons and low-stock alerts |
+|  Sales | 3-step sale flow: product → quantity → cash or credit |
+|  Customers | Track credit per customer, collect payments, view history |
+|  Daily Reports | Revenue, cash, credit breakdown with date navigation |
+|  Bilingual | English + Nepali (नेपाली) |
+|  100% Offline | SQLite — no internet, no server, no account needed |
+|  Secure | All data stays on device |
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -151,7 +81,7 @@ assets/
 
 ---
 
-## 📋 Minimum Requirements
+##  Minimum Requirements
 
 | Platform | Version |
 |---|---|

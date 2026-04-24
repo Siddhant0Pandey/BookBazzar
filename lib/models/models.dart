@@ -4,11 +4,11 @@
 class Sale {
   final int? id;
   final int productId;
-  final String productName;   // Denormalized for display without join
+  final String productName;   
   final int quantity;
   final double totalPrice;
   final DateTime date;
-  final bool isCredit;        // true = customer owes money
+  final bool isCredit;       
 
   const Sale({
     this.id,

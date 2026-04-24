@@ -170,7 +170,7 @@ class AppProvider extends ChangeNotifier {
     required Product product,
     required int quantity,
     required bool isCredit,
-    int? customerId,
+    int? customerId,  
   }) async {
     final totalPrice = product.sellingPrice * quantity;
 
